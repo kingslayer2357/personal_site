@@ -1,0 +1,145 @@
+/* ------------------ TAGS ----------------*/
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  background-color: #23282e;
+  margin: 0 0 100px 0;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a:hover{
+  color:#33fdb0 !important;
+
+}
+span{
+  color: #33fdb0;
+}
+img{
+  position: relative;
+  margin: 50px auto 50px auto;
+  width:90%;
+}
+h1{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+button{
+  position: relative;
+  top: 20px;
+  height: 50px;
+  border-width: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #33ffa9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h2{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+i{
+  margin: 20px 20px 20px 20px;
+  font-size: 2rem;
+}
+h4{
+  color: white;
+  position: relative;
+}
+
+
+
+/* ----------------- CLASSES -------------*/
+.navbar{
+  position:relative;
+  margin-bottom: 30px;
+  width: 95%;
+  margin: auto;
+}
+.navbar-nav{
+  position:relative;
+  right:30px;
+  margin-left: 70%;
+}
+.navbar-brand{
+  position: relative;
+  margin-left: 7%;
+}
+.divider{
+  width: 75%;
+  margin: auto;
+}
+
+
+.icon{
+  color:#33fdb0;
+}
+.copyright{
+  position:relative;
+  top:100px;
+}
+.part{
+  margin: 40px auto 40px auto;
+}
+
+.part_li{
+  list-style: circle;
+  color: #33fdb0;
+}
+
+
+/* ----------------IDs ------------------*/
+
+#intro{
+  font-size: 5rem;
+  margin-top: 50px;
+}
+
+#contacts{
+  background-color: #1d2126;
+  margin-bottom: 0;
+  height: 300px;
+  text-align:center;
+}
+
+#special{
+  color: #23282e;
+}
+#special:hover{
+  color: #23282e !important;
+  text-decoration: none;
+}
+
+@media (max-width:900px) {
+  img{
+    top:70px;
+  }
+}
+
+@media (max-width:490px) {
+  h1{
+    font-size: 4.5rem !important;
+  }
+}
+@media (max-width:990px) {
+  #title{
+    font-size: 2rem !important;
+    top:20px;
+  }
+}
